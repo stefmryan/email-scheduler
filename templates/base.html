@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html class="overflow-auto">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="Email Scheduler" />
+    <script src="../static/javascript/base.js"></script>
+    <title>{% block title %} {% endblock %} - Email Scheduler</title>
+
+    {%block head%} {%endblock%}
+  </head>
+
+  <body>
+    <header>Email Scheduler</header>
+    <div id="container">
+      <form>
+        <input type="email" id="emailInput" />
+        <button type="button" onclick="submitEmail()">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
